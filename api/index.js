@@ -35,5 +35,5 @@ app.use("/api/rooms", roomsRoute);
 
 app.listen(8600, ()=> {
     connect();
-    console.log('connected ooook');
+    console.log('connected to backend');
 })

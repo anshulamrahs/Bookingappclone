@@ -21,6 +21,7 @@ const connect = async () => {
 
 mongoose.connection.on('disconnect', () => {
     console.log('disconnected')
+    
 })
 
 //middleware
@@ -38,3 +39,4 @@ app.listen(8600, ()=> {
     connect();
     console.log('connected to backend');
 })
+
